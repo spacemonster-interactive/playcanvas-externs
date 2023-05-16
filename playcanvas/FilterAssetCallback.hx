@@ -1,0 +1,6 @@
+package playcanvas;
+
+/**
+	Callback used by {@link AssetRegistryfilter } to filter assets.
+**/
+typedef FilterAssetCallback = (asset:Asset) -> Bool;
